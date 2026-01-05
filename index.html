@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sweet Crumbs Bakery 🧁</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="cart">🛒 <span id="cart-count">0</span></span>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2 id="greeting"></h2>
+        <p id="date"></p>
+        <p class="hero-sub">Welcome to <strong>Sweet Crumbs</strong> — freshly baked happiness every day 🍞</p>
+        <div class="hero-slider" id="hero-slider" aria-live="polite">
+            <button class="slider-control prev" aria-label="Previous">‹</button>
+            <div class="slides">
+                <img src="images/cake.jpg" alt="Chocolate Cake">
+                <img src="images/croissant.jpg" alt="Croissant">
+                <img src="images/cupcake.jpg" alt="Cupcakes">
+            </div>
+            <button class="slider-control next" aria-label="Next">›</button>
+        </div>
+        <p class="hero-paragraph">We're here for your celebrations — fresh bakes and warm smiles, any time of day.</p>
+        <a class="cta" href="products.html">Order Now</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

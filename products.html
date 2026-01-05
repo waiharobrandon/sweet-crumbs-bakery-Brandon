@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products | Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Our Baked Goods 🍰</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="cart">🛒 <span id="cart-count">0</span></span>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+</header>
+
+<section class="products">
+    <div class="product">
+        <img src="images/cake.jpg" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Rich and moist chocolate cake</p>
+        <p class="price">KES 1200</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/croissant.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>Buttery French croissant</p>
+        <p class="price">KES 150</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/cupcake.jpg" alt="Cupcakes">
+        <h3>Cupcakes (6)</h3>
+        <p>Soft vanilla cupcakes</p>
+        <p class="price">KES 600</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/bread.jpg" alt="Banana Bread">
+        <h3>Banana Bread</h3>
+        <p>Homemade banana bread</p>
+        <p class="price">KES 450</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
